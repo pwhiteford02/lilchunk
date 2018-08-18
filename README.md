@@ -1,5 +1,4 @@
 ## Todo:
 
-* Finish maps
-* Fix completed button numbering & DOM rendering
-* Test
+*everything
+lilchunk.github.io
