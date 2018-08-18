@@ -4,7 +4,8 @@ body {
 .navbars {
   float: right;
   background-color: transparent;
-  color: black; }
+  color: black;
+  padding-right: 5%; }
 
 .navbars:active {
   background-color: transparent;
