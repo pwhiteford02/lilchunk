@@ -1,5 +1,17 @@
+$clear: transparent;
+$theGoodGrey: rgb(225, 225, 225);
 
+body {
+  background-color:$theGoodGrey;
+}
 
-main {
-  background-color: grey;
+.navbars{
+  float: right;
+  background-color: $clear;
+  color:black;
+}
+
+.navbars:active{
+  background-color: $clear;
+  color: $theGoodGrey;
 }
