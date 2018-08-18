@@ -1,5 +1,6 @@
 $clear: transparent;
-$theGoodGrey: rgb(225, 225, 225);
+$theGoodGrey: rgb(244, 244, 244);
+$theOtherGrey: rgb(172, 172, 172);
 
 body {
   background-color:$theGoodGrey;
@@ -7,12 +8,28 @@ body {
 
 .navbars{
   float: right;
+  float: top;
   background-color: $clear;
   color:black;
   padding-right: 5%;
 }
 
-.navbars:active{
+
+
+.lilChunk{
+  font-family: Helvetica;
+  font-size: 200%;
+  width: 40%;
+  padding-left: 5%;
+}
+
+.bars{
+  float: right;
+  padding-top: 5%;
+  padding-right: 5%;
+}
+
+.bars:active{
   background-color: $clear;
-  color: $theGoodGrey;
+  color:$theOtherGrey;
 }
